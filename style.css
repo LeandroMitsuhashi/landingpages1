@@ -136,13 +136,14 @@ body {
 }
 
 .rodape {
-    padding: 1em;
+    padding: 0.5em;
     border-top: 0.4px solid #FFF2E7;
     text-align: center;
     color: #FFF;
     font-style: italic;
 }
 
+/*
 .rodape-img {
     height: 3.5em;
     display: block;
