@@ -16,7 +16,7 @@ body {
 }
 
 .cabecalho-imagem {
-    margin: 30px ;
+    margin: 2rem 4rem;
     align-items: center;
     height: 5em;
     background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(128, 128, 128, 0.578));
@@ -25,7 +25,7 @@ body {
 
 }
 
-span#burger {
+i#burger {
     color: white;
     display: block;
     text-align: center;
@@ -33,7 +33,7 @@ span#burger {
     cursor: pointer;
 }
 
-span#burger:hover {
+i#burger:hover {
     background-color: white;
     color: black;
 }
