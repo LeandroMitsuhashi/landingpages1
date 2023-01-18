@@ -15,14 +15,16 @@ body {
     background-image: linear-gradient(78deg, #141111, #61453f);
 }
 
+header {
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
 .cabecalho-imagem {
-    margin: 2rem 4rem;
-    align-items: center;
-    height: 5em;
+    margin: 2rem 3.47rem;
+    height: 5rem;
     background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(128, 128, 128, 0.578));
     box-shadow: 2px 4px 10px 4px red;
     border-radius: 5px;
-
 }
 
 i#burger {
@@ -64,7 +66,7 @@ menu > ul > li > a:hover {
 .conteudo {
     padding-top: 2rem;
     width: 90vw;
-    border-top: 0.4px solid #FFF2E7;
+    
     margin: auto;
 }
 
@@ -119,7 +121,7 @@ menu > ul > li > a:hover {
 }
 
 .img-principal {
-    height: 25em;
+    height: auto;
     padding-top: 3em;
 }
 
