@@ -16,11 +16,13 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     border-bottom: 0.4px solid #FFF2E7;
 }
 
 .cabecalho-imagem {
-    margin: 2rem 3.47rem;
+    margin: 1rem auto;
     height: 5rem;
     background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(128, 128, 128, 0.578));
     box-shadow: 2px 4px 10px 4px red;
@@ -29,7 +31,7 @@ header {
 
 i#burger {
     color: white;
-    display: block;
+
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
